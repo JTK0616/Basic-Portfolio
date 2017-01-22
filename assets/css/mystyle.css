@@ -59,12 +59,30 @@ h2 {
 .Connect {
 	width: 270px
 	margin: 0 auto;
+	padding: 10px;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	float: right;
 }
 
 .Navigation {
-	text-align: bottom;
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 85px;
 	margin-right: 40px;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	vertical-align: middle;
+	color: #a5b0ba;
+	bottom: 0px;
+	width:100%;
+	height: 10%;
+	margin: 0px;
+	background-color: #666666;
+	border: #cccccc;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
