@@ -1,4 +1,33 @@
+* {
+	margin-left:20px
+	margin-right:20px;
+}
+
 body {
-	background-image:url('../images/weather.png');
+	background-image:url('../images/confectionary.png');
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	font: #777777;
+
 	}
 
+header {
+	width:100%;
+	height: 50px;
+	background-color: #ffffff;
+	background-border: #cccccc;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+
+.logo {
+	width:100px;
+	background-color:#4aaaa5;
+	float:left;
+}
+
+.NavMenu {
+	float: right;
+}
+
+h1 {
+	font-color:#4aaaa5;
+}
