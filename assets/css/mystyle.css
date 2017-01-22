@@ -1,33 +1,65 @@
-* {
-	margin-left:20px
-	margin-right:20px;
-}
-
 body {
 	background-image:url('../images/confectionary.png');
+	margin: 0px;
+	padding: 0px;
 	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 	font: #777777;
+	font-size: 16px;
+	line-height: 125%;
 
 	}
 
 header {
 	width:100%;
-	height: 50px;
+	height: 85px;
+	margin: 0px;
 	background-color: #ffffff;
 	background-border: #cccccc;
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 
-.logo {
-	width:100px;
+#Logo {
+	width:230px;
+	height:85px;
+	margin-left: 150px;
 	background-color:#4aaaa5;
-	float:left;
+	color: #FFFFFF;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 85px;
+	font-size: x-large;
 }
 
-.NavMenu {
+.Container {
+	width:960px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.Content {
+	width: 650px
+	margin: 0 auto;
+	float: left;
+}
+
+#bio_image {
+	float: left;
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+.Connect {
+	width: 270px;
+	height: 190px;
+    border: 5px solid gray;
+    background-color: #ffffff
+    margin: 0; 
+    float:right;
+}
+
+#NavMenu {
 	float: right;
-}
-
-h1 {
-	font-color:#4aaaa5;
+	text-align: bottom;
+	margin-right: 40px;
 }
