@@ -19,14 +19,31 @@ header {
 }
 
 p {
-	font-color:#777777;
+	color:#777777;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 h2 {
-	font-color: #4aaaa5;
+	color: #4aaaa5;
 	font-size: 24px;
+}
+
+h3 { 
+
+	position: relative;
+	left: 0px;
+	color: #FFFFFF;
+	background-color: #4aaaa5;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	z-index: 2
+}
+
+textarea {
+	width: 650px;
+	height: 250px;
 }
 
 #logo {
@@ -49,8 +66,7 @@ h2 {
 
 .content {
 	width: 650px;
-	padding-top: 20Px;
-	padding-left:20px;
+	padding: 20px;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	color: #777777;
@@ -80,6 +96,30 @@ h2 {
 	vertical-align: middle;
 	line-height: 85px;
 	margin-right: 40px;
+}
+
+.image {
+   position: relative; 
+   height: 200px;
+   width: 200px;
+   z-index: 1
+}
+
+.img {
+	position: relative;
+}
+
+.text {
+
+   position: absolute;
+   left: 1px;
+   bottom: 0;
+   width: 205px;
+   text-align: center;
+   padding: 10px;
+   color: #FFFFFF ;
+   background-color: #4aaaa5
+
 }
 
 footer {
