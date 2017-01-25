@@ -7,6 +7,7 @@ body {
 	font: #777777;
 	font-size: 16px;
 	line-height: 125%;
+	min-height: 100%;
 }
 	}
 
@@ -30,17 +31,6 @@ h2 {
 	font-size: 24px;
 }
 
-h3 { 
-
-	position: relative;
-	left: 0px;
-	color: #FFFFFF;
-	background-color: #4aaaa5;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 50px;
-	z-index: 2
-}
 
 textarea {
 	width: 650px;
@@ -129,7 +119,7 @@ textarea {
 }
 
 footer {
-	/*position: absolute;*/
+	position: absolute;
 	text-align: center;
 	bottom: 0px;
 	color: #a5b0ba;
@@ -140,4 +130,5 @@ footer {
 	border-style: solid;
 	border-color: #4aaaa5;
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	max-height: 90px;
 }
